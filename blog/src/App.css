@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-header {
+  width: 80vw;
+  text-align: left;
+  margin-left: 5em;
+}
+
+.center {
+  width: 70vw;
+  margin-left: 5em;
+  float: left;
+}
+
+.allList {
+  width: 10em;
+  height: 80vh;
+  overflow: auto;
+  float: left;
+  margin-left: -10em;
+  background-color: royalblue;
+}
+
+.showAllList {
+  margin-left: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.showBtn {
+  outline: none!important;
+}
